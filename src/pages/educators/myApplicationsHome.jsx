@@ -1,6 +1,7 @@
 import React from "react";
 import MyApplicationVisitorModal from "../../components/modals/MyApplicationVisitorModal";
 import { Link } from 'react-router-dom';
+import {Input} from '../../components/UI' 
 
 const MyApplicationHome = () => {
   return (
@@ -41,7 +42,7 @@ const MyApplicationHome = () => {
                       <h3>Home Type</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -49,7 +50,7 @@ const MyApplicationHome = () => {
                       <h3>Ownership Structure</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -57,7 +58,7 @@ const MyApplicationHome = () => {
                       <h3>Outdoor Play Area</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -65,7 +66,7 @@ const MyApplicationHome = () => {
                       <h3>Child-Proofed?</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Sep 21 2018" />
+                      <Input type="text" value="Sep 21 2018" />
                     </div>
                   </div>
                   <div className="row">
@@ -73,7 +74,7 @@ const MyApplicationHome = () => {
                       <h3>Do you Smoke?</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="English, Mandarin" />
+                      <Input type="text" value="English, Mandarin" />
                     </div>
                   </div>
                   <div className="row">
@@ -81,7 +82,7 @@ const MyApplicationHome = () => {
                       <h3>Do you have Pets?</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="None" />
+                      <Input type="text" value="None" />
                     </div>
                   </div>
                 </form>

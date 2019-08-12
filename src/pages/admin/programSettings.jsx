@@ -3,6 +3,7 @@ import searchicon2 from '../../assets/img/searchicon2.svg';
 import psicon from '../../assets/img/psicon.svg';
 import {Table} from '../../components/UI';
 import {Input} from '../../components/UI';
+import Pagination from '../../components/pagination/pagination'
 
 const ProgramSettings = () => {
     return (
@@ -61,15 +62,8 @@ data={[
     }
 ]}
 />
-     <div className="numb">
-                            <ul>
-                                <li className="activeno"><a href="#/">1</a></li>
-                                <li><a href="#/">2</a></li>
-                                <li><a href="#/">3</a></li>
-                                <li><a href="#/">...</a></li>
-                                <li><a href="#/">8</a></li>
-                            </ul>
-                        </div> 
+ 
+                        <Pagination />
                     </div>
                 </div>
       	    </div>

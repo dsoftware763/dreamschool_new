@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Input(props) {
-
     return (
         <input {...props}/>
     );

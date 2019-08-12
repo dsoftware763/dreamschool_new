@@ -1,5 +1,6 @@
 import React from "react";
 import MyApplicationVisitorModal from "../../components/modals/MyApplicationVisitorModal";
+import {Input} from '../../components/UI'
 
 const MyApplicationCredentials = () => {
   return (
@@ -40,7 +41,7 @@ const MyApplicationCredentials = () => {
                       <h3><span className="green-circle mr-2" />Vulnerable Sector Check</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -48,7 +49,7 @@ const MyApplicationCredentials = () => {
                       <h3><span className="green-circle mr-2" />Criminal Record Check</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -56,7 +57,7 @@ const MyApplicationCredentials = () => {
                       <h3><span className="orange-circle mr-2" />First Aid</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -64,7 +65,7 @@ const MyApplicationCredentials = () => {
                       <h3><span className="green-circle mr-2" />Infant and Child CPR</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Sep 21 2018" />
+                      <Input type="text" value="Sep 21 2018" />
                     </div>
                   </div>
                   <div className="row">
@@ -72,7 +73,7 @@ const MyApplicationCredentials = () => {
                       <h3><span className="orange-circle mr-2" />Immunization</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="English, Mandarin" />
+                      <Input type="text" value="English, Mandarin" />
                     </div>
                   </div>
                   <div className="row">
@@ -80,7 +81,7 @@ const MyApplicationCredentials = () => {
                       <h3><span className="grey-circle mr-2" />Registered Early Childhood Educator</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="None" />
+                      <Input type="text" value="None" />
                     </div>
                   </div>
                   <div className="row">
@@ -88,7 +89,7 @@ const MyApplicationCredentials = () => {
                       <h3><span className="orange-circle mr-2" />Registered Educator</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="None" />
+                      <Input type="text" value="None" />
                     </div>
                   </div>
                 </form>

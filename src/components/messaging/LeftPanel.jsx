@@ -4,6 +4,7 @@ import arrowdownselect2 from "../../assets/img/arrowdownselect2.svg";
 import msgicon from "../../assets/img/msgicon.png";
 import msgicon2 from "../../assets/img/msgicon2.png";
 import msgicon3 from "../../assets/img/msgicon3.png";
+import {Input} from '../UI'
 
 const LeftMessagingPanel = () => {
   return (
@@ -31,7 +32,7 @@ const LeftMessagingPanel = () => {
           <div className="col-6">
             <div className="msg-search">
               <div className="input">
-                <input type="text" placeholder="Search conversations" />
+                <Input type="text" placeholder="Search conversations" />
 
                 <button>
                   {" "}
