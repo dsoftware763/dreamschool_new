@@ -1,6 +1,7 @@
 import React from 'react';
 import {Table, Input} from '../../components/UI';
 import searchicon2 from '../../assets/img/searchicon2.svg';
+import Pagination from '../../components/pagination/pagination'
 
 const FamilyProfiles = () => {
     return (
@@ -57,16 +58,8 @@ const FamilyProfiles = () => {
                       }
                     ]}
                   />
-              
-                  <div className="numb">
-                    <ul>
-                      <li className="activeno"><a href="#/">1</a></li>
-                      <li><a href="#/">2</a></li>
-                      <li><a href="#/">3</a></li>
-                      <li><a href="#/">...</a></li>
-                      <li><a href="#/">8</a></li>
-                    </ul>
-                  </div>
+                   
+                  <Pagination />
                 </div>
               </div>
       			</div>

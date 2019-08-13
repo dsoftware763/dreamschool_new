@@ -1,6 +1,8 @@
 import React from 'react';
 import {Table, Input, Select, TextArea, Modal} from '../../components/UI';
 import searchicon2 from '../../assets/img/searchicon2.svg';
+import Pagination from '../../components/pagination/pagination'
+import ProgramSearchInput from '../../components/common/ProgramSearchInput'
 
 class Promotions extends React.PureComponent {
   state = {
@@ -165,13 +167,14 @@ class Promotions extends React.PureComponent {
               <div className="col-md-6">
                 <div className="search">
                   <div className="input">
-                    <Input 
+                  <ProgramSearchInput /> 
+                {/*     <Input 
                       placeholder="Search by name" 
                       name="search"
                       onChange={() => {}}
                     />
                    
-                    <button> <img src={searchicon2} className="searchicon" alt=""/></button>
+                    <button> <img src={searchicon2} className="searchicon" alt=""/></button> */}
                   </div>
                 </div>
               </div>
@@ -218,14 +221,7 @@ class Promotions extends React.PureComponent {
                     }
                   ]}
                 />
-              
-                <div className="numb">
-                  <ul>
-                    <li className="activeno"><a href="#/">1</a></li>
-                    <li><a href="#/">2</a></li>
-                    <li><a href="#/">3</a></li>
-                  </ul>
-                </div>
+                <Pagination />
               </div>
             </div>
           </div>

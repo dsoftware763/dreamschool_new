@@ -4,6 +4,7 @@ import msgicon3 from "../../assets/img/msgicon3.png";
 import leftmsgarrow from "../../assets/img/leftmsgarrow.png";
 import rightmsgarrow from "../../assets/img/rightmsgarrow.png";
 import sendmsgbtn from "../../assets/img/sendmsgbtn.svg";
+import {Input} from '../UI'
 
 const CenterMessagingPanel = () => {
   return (
@@ -178,7 +179,7 @@ const CenterMessagingPanel = () => {
           <div className="col-12">
             <div className="search">
               <div className="input">
-                <input type="text" placeholder="Search conversations" />
+                <Input type="text" placeholder="Search conversations" />
 
                 <button>
                   {" "}

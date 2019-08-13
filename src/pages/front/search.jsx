@@ -7,6 +7,8 @@ import FindMap from '../../components/front/find/FindMap';
 import SchoolList from '../../components/front/find/SchoolList';
 import ReactPaginate from 'react-paginate';
 import searchicon from "../../assets/img/searchicon.png";
+import {Input} from '../../components/UI'
+import ProgramSearchInput from '../../components/common/ProgramSearchInput'
 
 class Search extends React.Component {
     constructor() {
@@ -64,8 +66,7 @@ class Search extends React.Component {
                             <div className="col-md-6">
                                 <div className="search-header">
                                     <form id="search_form" className="search" acceptCharset="UTF-8" method="get">
-                                        <input type="text" name="q" id="q" placeholder="Search by name, address, or keyword" />
-                                        <button type="submit"><img src={searchicon} alt="" /></button>
+                                   <ProgramSearchInput />
                                     </form>
                                 </div>
                             </div>

@@ -6,6 +6,7 @@ import leftarrow from '../../assets/img/leftarrow.png';
 import rightarrow from '../../assets/img/rightarrow.png';
 import Carousel from 'react-bootstrap/Carousel';
 import searchicon from "../../assets/img/searchicon.png";
+import {Input} from '../UI';
 
 const Featured = () => {
     return (
@@ -16,7 +17,7 @@ const Featured = () => {
                     <div className="col-md-12">
                         <h1>Featured Dreamschools</h1>
                         <form className="search" action="/search" accept-charset="UTF-8" method="get">
-                            <input type="text" name="q" id="q" placeholder="Search by name, address, or keyword" />
+                            <Input type="text" name="q" id="q" placeholder="Search by name, address, or keyword" />
                             <button type="submit"><img src={searchicon} alt="" /></button>
                         </form>
                         <Carousel 

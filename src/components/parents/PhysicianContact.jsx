@@ -1,4 +1,5 @@
 import React from 'react';
+import {Input} from '../UI'
 
 class PhysicianContact extends React.PureComponent {
     handChange = (e) => {
@@ -26,7 +27,7 @@ class PhysicianContact extends React.PureComponent {
                                     <h3>Full Name</h3>
                                 </div>
                                 <div className="col-md-6 col-7">
-                                    <input onChange={this.handChange} type="text" value="Johnny Johnson" />
+                                    <Input onChange={this.handChange} type="text" value="Johnny Johnson" />
                                 </div>
                             </div>
                             <div className="row">
@@ -34,7 +35,7 @@ class PhysicianContact extends React.PureComponent {
                                     <h3>Child in Care</h3>
                                 </div>
                                 <div className="col-md-6 col-7">
-                                    <input onChange={this.handChange} type="text" value="Sep 21 2018" />
+                                    <Input onChange={this.handChange} type="text" value="Sep 21 2018" />
                                 </div>
                             </div>
                             <div className="row">
@@ -42,7 +43,7 @@ class PhysicianContact extends React.PureComponent {
                                     <h3>Address</h3>
                                 </div>
                                 <div className="col-md-6 col-7">
-                                    <input onChange={this.handChange} type="text" value="Male" />
+                                    <Input onChange={this.handChange} type="text" value="Male" />
                                 </div>
                             </div>
                             <div className="row">
@@ -50,7 +51,7 @@ class PhysicianContact extends React.PureComponent {
                                     <h3>Phone</h3>
                                 </div>
                                 <div className="col-md-6 col-7">
-                                    <input onChange={this.handChange} type="text" value="English, Mandarin" />
+                                    <Input onChange={this.handChange} type="text" value="English, Mandarin" />
                                 </div>
                             </div>
                             <div className="row">
@@ -58,7 +59,7 @@ class PhysicianContact extends React.PureComponent {
                                     <h3>Company</h3>
                                 </div>
                                 <div className="col-md-6 col-7">
-                                    <input onChange={this.handChange} type="text" value="English, Mandarin" />
+                                    <Input onChange={this.handChange} type="text" value="English, Mandarin" />
                                 </div>
                             </div>
                         </form>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ImageActiveA from "../../assets/img/imgactivea.png";
+import {Table} from '../UI'
+import Pagination from '../pagination/pagination'
 
 const TuitionPaymentTable = () => {
   return (
@@ -20,95 +22,68 @@ const TuitionPaymentTable = () => {
               </a>
             </li>
           </ul>
-          <table className="table">
-            <thead>
-              <tr>
-                <th scope="col">Student</th>
-                <th scope="col">Amount</th>
-                <th scope="col">Service Period</th>
-                <th scope="col">Status</th>
-                <th scope="col" />
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Logan Michaels</th>
-                <td>$250.00</td>
-                <td>June 1- June 8 2019</td>
-                <td>Pending</td>
-                <td>
-                  <Link to="/parents/tuition-payments/view">VIEW</Link>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Logan Michaels</th>
-                <td>$250.00</td>
-                <td>June 1- June 8 2019</td>
-                <td>Pending</td>
-                <td>
-                  <Link to="/parents/tuition-payments/view">VIEW</Link>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Logan Michaels</th>
-                <td>$250.00</td>
-                <td>June 1- June 8 2019</td>
-                <td>Pending</td>
-                <td>
-                  <Link to="/parents/tuition-payments/view">VIEW</Link>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Logan Michaels</th>
-                <td>$250.00</td>
-                <td>June 1- June 8 2019</td>
-                <td>Pending</td>
-                <td>
-                  <Link to="/parents/tuition-payments/view">VIEW</Link>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Logan Michaels</th>
-                <td>$250.00</td>
-                <td>June 1- June 8 2019</td>
-                <td>Pending</td>
-                <td>
-                  <Link to="/parents/tuition-payments/view">VIEW</Link>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Logan Michaels</th>
-                <td>$250.00</td>
-                <td>June 1- June 8 2019</td>
-                <td>Pending</td>
-                <td>
-                  <Link to="/parents/tuition-payments/view">VIEW</Link>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Logan Michaels</th>
-                <td>$250.00</td>
-                <td>June 1- June 8 2019</td>
-                <td>Pending</td>
-                <td>
-                  <Link to="/parents/tuition-payments/view">VIEW</Link>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="numb">
-            <ul>
-              <li className="activeno">
-                <a href="#/">1</a>
-              </li>
-              <li>
-                <a href="#/">2</a>
-              </li>
-              <li>
-                <a href="#/">3</a>
-              </li>
-            </ul>
-          </div>
+
+          <Table 
+          headings={[
+            {id: 'student',label:'Student'},
+            {id: 'amount',label:'Amount'},
+            {id: 'service_period',label:`Service Period`},
+            {id: 'status',label:'Status'},
+            {id: 'col'}
+        ]}
+data={[
+  {
+    student:  'Logan Michaels',
+    amount: '$250.00',
+    service_period: 'June 1- June 8 2019',
+    status: 'Pending',
+    col: <Link to="/parents/tuition-payments/view">VIEW</Link>
+},
+{
+  student:  'Logan Michaels',
+  amount: '$250.00',
+  service_period: 'June 1- June 8 2019',
+  status: 'Pending',
+  col: <Link to="/parents/tuition-payments/view">VIEW</Link>
+},
+{
+  student:  'Logan Michaels',
+  amount: '$250.00',
+  service_period: 'June 1- June 8 2019',
+  status: 'Pending',
+  col: <Link to="/parents/tuition-payments/view">VIEW</Link>
+},
+{
+  student:  'Logan Michaels',
+  amount: '$250.00',
+  service_period: 'June 1- June 8 2019',
+  status: 'Pending',
+  col: <Link to="/parents/tuition-payments/view">VIEW</Link>
+},
+{
+  student:  'Logan Michaels',
+  amount: '$250.00',
+  service_period: 'June 1- June 8 2019',
+  status: 'Pending',
+  col: <Link to="/parents/tuition-payments/view">VIEW</Link>
+},
+{
+  student:  'Logan Michaels',
+  amount: '$250.00',
+  service_period: 'June 1- June 8 2019',
+  status: 'Pending',
+  col: <Link to="/parents/tuition-payments/view">VIEW</Link>
+},
+{
+  student:  'Logan Michaels',
+  amount: '$250.00',
+  service_period: 'June 1- June 8 2019',
+  status: 'Pending',
+  col: <Link to="/parents/tuition-payments/view">VIEW</Link>
+},
+]}
+          />
+          <Pagination />
         </div>
       </div>
   );

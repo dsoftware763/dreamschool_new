@@ -6,14 +6,16 @@ import greencircle from "../../assets/img/greencircle.svg"
 import ppicon from "../../assets/img/halfppicon.svg"
 import ppicon3 from "../../assets/img/ppicon3.svg"
 import ppicon4 from "../../assets/img/ppicon4.svg"
-
-const EnrolledTable = () => {
+import {Input} from '../UI'
+import Pagination from '../pagination/pagination'
+const EnrolledTable = 
+() => {
     return (
         <div className="cont">
         <div className="row">
           <div className="search">
             <div className="input">
-              <input type="text" placeholder="Search by name" />
+              <Input type="text" placeholder="Search by name" />
 
               <button>
                 <img
@@ -117,19 +119,8 @@ const EnrolledTable = () => {
                 </tr>
               </tbody>
             </table>
-            <div className="numb">
-              <ul>
-                <li className="activeno">
-                  <a href="#/">1</a>
-                </li>
-                <li>
-                  <a href="#/">2</a>
-                </li>
-                <li>
-                  <a href="#/">3</a>
-                </li>
-              </ul>
-            </div>
+
+            <Pagination />
           </div>
         </div>
       </div>

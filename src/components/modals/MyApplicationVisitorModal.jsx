@@ -1,4 +1,5 @@
 import React from "react"
+import {Input} from '../UI'
 
 const MyApplicationVisitorModal = () => {
     return (
@@ -18,7 +19,7 @@ const MyApplicationVisitorModal = () => {
                       <h3>Full Name</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -26,7 +27,7 @@ const MyApplicationVisitorModal = () => {
                       <h3>Relationship</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -34,7 +35,7 @@ const MyApplicationVisitorModal = () => {
                       <h3>Credentials</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -42,7 +43,7 @@ const MyApplicationVisitorModal = () => {
                       <h3>Status</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Sep 21 2018" />
+                      <Input type="text" value="Sep 21 2018" />
                     </div>
                   </div>
                   <div className="row">
@@ -50,7 +51,7 @@ const MyApplicationVisitorModal = () => {
                       <h3>Supporting Document</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="English, Mandarin" />
+                      <Input type="text" value="English, Mandarin" />
                     </div>
                   </div>
                 </form>

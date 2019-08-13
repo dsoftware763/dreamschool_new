@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Input} from '../UI'
 const MyApplicationModal = () => {
     return (
         <div className="row mt-50px">
@@ -19,7 +19,7 @@ const MyApplicationModal = () => {
                       <h3>Full Name</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -27,7 +27,7 @@ const MyApplicationModal = () => {
                       <h3>Home Phone</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -35,7 +35,7 @@ const MyApplicationModal = () => {
                       <h3>Cell Phone</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Johnny Johnson" />
+                      <Input type="text" value="Johnny Johnson" />
                     </div>
                   </div>
                   <div className="row">
@@ -43,7 +43,7 @@ const MyApplicationModal = () => {
                       <h3>Date of Birth</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Sep 21 2018" />
+                      <Input type="text" value="Sep 21 2018" />
                     </div>
                   </div>
                   <div className="row">
@@ -51,7 +51,7 @@ const MyApplicationModal = () => {
                       <h3>Language(s) Spoken</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="English, Mandarin" />
+                      <Input type="text" value="English, Mandarin" />
                     </div>
                   </div>
                   <div className="row">
@@ -59,7 +59,7 @@ const MyApplicationModal = () => {
                       <h3>Age Group Preference</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="None" />
+                      <Input type="text" value="None" />
                     </div>
                   </div>
                   <div className="row">
@@ -67,7 +67,7 @@ const MyApplicationModal = () => {
                       <h3>Child Care Hours</h3>
                     </div>
                     <div className="col-md-6 col-7">
-                      <input type="text" value="Yes" />
+                      <Input type="text" value="Yes" />
                     </div>
                   </div>
                 </form>
@@ -90,7 +90,7 @@ const MyApplicationModal = () => {
                     <h3>Full Name</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="Johnny Johnson" />
+                    <Input type="text" value="Johnny Johnson" />
                   </div>
                 </div>
                 <div className="row">
@@ -98,7 +98,7 @@ const MyApplicationModal = () => {
                     <h3>Birth Date</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="Sep 21 2018" />
+                    <Input type="text" value="Sep 21 2018" />
                   </div>
                 </div>
                 <div className="row">
@@ -106,7 +106,7 @@ const MyApplicationModal = () => {
                     <h3>Gender</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="Male" />
+                    <Input type="text" value="Male" />
                   </div>
                 </div>
                 <div className="row">
@@ -114,7 +114,7 @@ const MyApplicationModal = () => {
                     <h3>Language(s)</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="English, Mandarin" />
+                    <Input type="text" value="English, Mandarin" />
                   </div>
                 </div>
                 <div className="row">
@@ -122,7 +122,7 @@ const MyApplicationModal = () => {
                     <h3>Allergies</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="None" />
+                    <Input type="text" value="None" />
                   </div>
                 </div>
                 <div className="row">
@@ -130,7 +130,7 @@ const MyApplicationModal = () => {
                     <h3>Immunized</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="Yes" />
+                    <Input type="text" value="Yes" />
                   </div>
                 </div>
                 <div className="row">
@@ -138,7 +138,7 @@ const MyApplicationModal = () => {
                     <h3>Medication</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="None" />
+                    <Input type="text" value="None" />
                   </div>
                 </div>
                 <div className="row">
@@ -146,7 +146,7 @@ const MyApplicationModal = () => {
                     <h3>Medication</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="None" />
+                    <Input type="text" value="None" />
                   </div>
                 </div>
                 <div className="row">
@@ -154,7 +154,7 @@ const MyApplicationModal = () => {
                     <h3>Medication</h3>
                   </div>
                   <div className="col-md-6 col-7">
-                    <input type="text" value="None" />
+                    <Input type="text" value="None" />
                   </div>
                 </div>
               </form>
