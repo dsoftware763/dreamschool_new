@@ -1,17 +1,17 @@
 import React from 'react';
 import {Input} from '../../../components/UI/form';
 const BasicInfo = ()  => {
-    return (
+    return (<>
         <div className="box" style={{maxWidth: 440}}>
-                    <div className="bgofbox">
-                    <div className="header">
+            <div className="bgofbox">
+                <div className="header">
                     <div className="row">
                         <div className="col-md-6 col-5">
                             <h2>MY PROGRAM</h2>
                         </div>
                     </div>
-                    </div>
-                    <div className="formbody">
+                </div>
+                <div className="formbody">
                     <form action="">
                         <div className="row">
                         <div className="col-md-6 col-5">
@@ -111,9 +111,121 @@ const BasicInfo = ()  => {
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+        <div className="box" style={{maxWidth: 440}}>
+            <div className="bgofbox">
+                <div className="header">
+                    <div className="row">
+                        <div className="col-md-6 col-5">
+                            <h2>LOCATION & HOURS</h2>
+                        </div>
                     </div>
                 </div>
+                <div className="formbody">
+                    <form action="#">
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>Address</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                            <Input 
+                                name="address" 
+                                value="193 street" 
+                                onChange={() => {}}
+                            />
+                        </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>Nearest Major intersaction</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                                <Input 
+                                    name="intersacton"
+                                    value="Spadina"
+                                />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>City</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                                <Input 
+                                    name="city"
+                                    value="Toronto" 
+                                />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>Province</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                                <Input 
+                                    name="province"
+                                    value="Ontario" 
+                                />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>Country</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                                <Input name="educatorName" value="Canada" />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>Post Code</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                                <Input
+                                    name="postCode"
+                                    value="L6H2S"
+                                />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>Hours to Operate</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                                <Input
+                                    name="operateHours"
+                                    value="9 am"
+                                />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>Days of Week</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                                <Input
+                                    name="daysOfWeek"
+                                    value="Mon-Fri"
+                                />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-5">
+                                <h3>Excluded Days</h3>
+                            </div>
+                            <div className="col-md-6 col-7">
+                                <Input
+                                    name="excludedDays"
+                                    value="Wednesday"
+                                />
+                            </div>
+                        </div>
+                    </form>
                 </div>
-    );
+            </div>
+        </div>
+    </>);
 }
 export default BasicInfo;

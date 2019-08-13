@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import BasicInfo from './BasicInfo';
+import ProgramIntro from './ProgramIntro';
+import Gallery from './Gallery';
 
 class ProgramSetupNew extends React.PureComponent {
     state = {
@@ -23,12 +25,17 @@ class ProgramSetupNew extends React.PureComponent {
 
     render() {
         const {step} = this.state;
-        console.log(step)
         let form;
         switch(step) {
             case 1:
                 form = <BasicInfo/>
                 break;
+            case 2:
+                form = <ProgramIntro/>
+                break;
+            case 3:
+                form = <Gallery/>
+                break;        
             default:
                 form = <BasicInfo/>
         }
