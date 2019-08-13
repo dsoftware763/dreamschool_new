@@ -16,6 +16,8 @@ import Calendar from '../../pages/shared/calendar';
 import SideMenu from './SideMenu';
 import MyApplicationHome from "../../pages/educators/myApplicationsHome";
 import MyApplicationCredentials from "../../pages/educators/myApplicationsCredentials";
+import ProgramSetup from "../../pages/educators/programSetup";
+import ProgramSetupNew from "../../pages/educators/programSetupNew";
 
 const EducatorLayout = props => {
 	const {path} = props.match;
@@ -111,7 +113,19 @@ const EducatorLayout = props => {
 				exact
 				path="/educators/messaging"
 				component={Messaging}
-				/>
+			/>
+			<EducatorRoute
+				educator={true}
+				exact
+				path="/educators/program-settings"
+				component={ProgramSetup}
+			/>
+			<EducatorRoute
+				educator={true}
+				exact
+				path="/educators/program-settings/new"
+				component={ProgramSetupNew}
+			/>
 			</div>
 		</div>
 		<a className="scroll-to-top rounded" href="#page-top">
