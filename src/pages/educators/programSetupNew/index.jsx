@@ -7,7 +7,7 @@ class ProgramSetupNew extends React.PureComponent {
         step : 1
     }
     nextStep = () => {
-        if(this.state.step < 4) {
+        if(this.state.step < 5) {
             this.setState(state => ({
                 step: state.step + 1
             }))
@@ -54,7 +54,7 @@ class ProgramSetupNew extends React.PureComponent {
                     width: '25px',
                     height: '25px',
                     borderRadius: '100%',
-                    backgroundColor: step >= 4 ? '#a0aed8' : '#4e73df',
+                    backgroundColor: step >= 5 ? '#a0aed8' : '#4e73df',
                     color: '#ffffff',
                     textAlign: 'center',
                     top: '50%',
